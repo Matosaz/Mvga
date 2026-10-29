@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Barycentric",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Barycentric.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/Users/Matheus/Downloads/c/bin/gdb.exe",
+            "preLaunchTask": "cmake-build"
+        }
+    ]
+}

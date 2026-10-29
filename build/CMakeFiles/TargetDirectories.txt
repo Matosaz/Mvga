@@ -1,0 +1,4 @@
+C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/Barycentric.dir
+C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/copy_shaders.dir
+C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/edit_cache.dir
+C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/rebuild_cache.dir
