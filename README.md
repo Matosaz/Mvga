@@ -2,6 +2,8 @@
 
 Programa em **C++ / OpenGL 3.3 (core profile)** que desenha um triângulo ABC em um *fragment shader* de tela cheia, calcula as **coordenadas baricêntricas** de um ponto em função dos vértices e **muda a coloração do triângulo conforme a posição do mouse** (dentro ou fora).
 
+
+
 ---
 
 ## Sumário
