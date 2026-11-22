@@ -12,11 +12,10 @@ Programa em **C++ / OpenGL 3.3 (core profile)** que desenha um triângulo ABC em
 2. [Requisitos](#requisitos)
 3. [Estrutura do repositório](#estrutura-do-repositório)
 4. [Configuração no Windows](#configuração-no-windows)
-5. [Execução e controles](#execução-e-controles)
-6. [Uniforms disponíveis nos shaders](#uniforms-disponíveis-nos-shaders)
-7. [Linux (adaptação necessária)](#linux-adaptação-necessária)
-8. [Problemas comuns](#problemas-comuns)
-9. [Créditos](#créditos)
+5. [Execução e controles no Windows](#execução-e-controles-no-windows)
+6. [Configuração e execução no Linux](#configuração-e-execução-no-linux)
+7. [Problemas comuns](#problemas-comuns)
+8. [Créditos](#créditos)
 
 
 ---
@@ -130,7 +129,7 @@ Sem isso, o Windows exibe o erro de DLL não encontrada ao abrir o programa.
 
 ---
 
-## Execução e controles
+## Execução e controles no Windows
 
 Execute a partir da pasta do executável (onde está `Shaders/`):
 
@@ -155,29 +154,65 @@ Após ligar o desenho, o título da janela mostra o FPS.
 
 ---
 
-## Linux (adaptação necessária)
+## Configuração e execução no Linux
 
-O `CMakeLists.txt` atual **não compila no Linux** sem alterações (as bibliotecas `glfw3dll`, `opengl32` e `gdi32` são do Windows). Uma adaptação possível, **não testada**:
+> Nota: Configuração testada em ambiente WSL Ubuntu no Windows 11.
+
+### 1. Instale as dependências
 
 ```bash
+sudo apt-get update
 sudo apt-get install g++ cmake git libglfw3-dev libglm-dev libgl1-mesa-dev xorg-dev
 ```
 
-No `CMakeLists.txt`, substitua a configuração do GLFW e a linha `target_link_libraries` por:
+### 2. Confira o suporte a OpenGL
+```bash
+sudo apt-get install mesa-utils
+glxinfo -B | grep "OpenGL version"
+```
+Se aparecer uma versão 3.3 ou superior, prossiga para o próximo passo.
+
+### 3. Ajuste o `CMakeLists.txt`
+
+Substitua o conteúdo inteiro do arquivo por:
 
 ```cmake
-if(WIN32)
-    set(GLFW_DIR "C:/caminho/para/glfw")
-    include_directories(${GLFW_DIR}/include)
-    link_directories(${GLFW_DIR}/lib)
-    target_link_libraries(Barycentric glfw3dll opengl32 gdi32)
-else()
-    find_package(glfw3 REQUIRED)
-    target_link_libraries(Barycentric glfw GL dl)
-endif()
+cmake_minimum_required(VERSION 3.16)
+
+set(CMAKE_CXX_STANDARD 17)
+
+project(Barycentric)
+configure_file(${PROJECT_SOURCE_DIR}/configuration/root_directory.h.in configuration/root_directory.h)
+include_directories(${CMAKE_BINARY_DIR}/configuration)
+include_directories(${PROJECT_SOURCE_DIR}/includes)
+
+add_executable(Barycentric stb_image/stb_image.cpp Shader.h glad.c Barycentric.cpp)
+
+add_custom_target(copy_shaders ALL
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${PROJECT_SOURCE_DIR}/Shaders $<TARGET_FILE_DIR:Barycentric>/Shaders
+)
+add_custom_command(TARGET Barycentric POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${PROJECT_SOURCE_DIR}/Shaders $<TARGET_FILE_DIR:Barycentric>/Shaders
+)
+
+find_package(glfw3 REQUIRED)
+target_link_libraries(Barycentric glfw GL dl)
 ```
 
-Como `target_link_libraries` deve vir depois de `add_executable`, mantenha esse bloco abaixo dela.
+Agora, para rodar o projeto, certifique-se que está dentro da pasta raiz e execute na linha de comando:
+
+```bash
+cmake -S . -B build
+cmake --build build
+cd build
+./Barycentric
+```
+
+> **Atenção:** Caso já exista uma pasta `/build`, apague-a com o comando `rm -rf build` e rode os comandos acima para executar o build novamente.
+
+Ao iniciar a execução, aparecerá uma janela preta. Você deve clicar na tecla Espaço para iniciar o programa.
 
 ---
 
@@ -201,5 +236,6 @@ Como `target_link_libraries` deve vir depois de `add_executable`, mantenha esse 
 
 - A estrutura do projeto (classe `Shader`, `loadTexture`, `learnopengl/filesystem.h`) é inspirada no material do **[LearnOpenGL](https://learnopengl.com)**, de Joey de Vries.
 - [GLFW](https://www.glfw.org), [GLAD](https://glad.dav1d.de), [GLM](https://github.com/g-truc/glm) e [stb_image](https://github.com/nothings/stb).
+- Configuração e execução no Linux: [annaisabelapont](https://github.com/annaisabelapont).
 
 Autor: [Matosaz](https://github.com/Matosaz)
