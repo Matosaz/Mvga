@@ -1,3 +1,0 @@
-/home/helton/disciplinas/mvga2013/barycentric/build/Desktop-Debug/CMakeFiles/Barycentric.dir
-/home/helton/disciplinas/mvga2013/barycentric/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/helton/disciplinas/mvga2013/barycentric/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir

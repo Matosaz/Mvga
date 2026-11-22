@@ -113,8 +113,8 @@ float df_bounds(in vec2 uv, in vec2 p, in vec2 a, in vec2 b, in vec2 c, in vec3 
 
 vec3 globalColor (in vec2 uv, in vec2 a, in vec2 b, in vec2 c)
 {
-    vec3 r=vec3(1.0);
-
+    vec3 r = vec3(0.0);
+    test(a, b, c, uv, r);
     return r;
 }
 
@@ -135,7 +135,7 @@ void main()
     bool t0 = test(a, b, c, mc,bm);
     bool t1 = test(a, b, c, uv,bp);
     vec3 r = globalColor(uv,a,b,c);
-
+    
     vec3 color = vec3(0.00);
     // Visual debug lines and points.
     if (line(uv, a, b)) color = vec3(1.0, 1.0, 0.0);
@@ -150,8 +150,7 @@ void main()
     vec3 col = t1 ? r : (t0 ? COL3 + color : 1.0 - color);
     col = mix(col, vec3(1.0), sharpen(d, 0.004));
     
-    if(t1) col = vec3(0.0);
-    if(t0 && t1) col = COL1;
+    if(t0 && t1) col = mix(col, COL1, 0.4);
 
     gl_FragColor = vec4(col, 1.0);
 }

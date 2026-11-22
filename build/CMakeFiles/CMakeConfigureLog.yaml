@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j"
-      binary: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j"
+      source: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9"
+      binary: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j'
+        Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9'
         
-        Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ca3ff/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ca3ff.dir\\build.make CMakeFiles/cmTC_ca3ff.dir/build
-        mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j'
-        Building C object CMakeFiles/cmTC_ca3ff.dir/CMakeCCompilerABI.c.obj
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_60be3/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_60be3.dir\\build.make CMakeFiles/cmTC_60be3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9'
+        Building C object CMakeFiles/cmTC_60be3.dir/CMakeCCompilerABI.c.obj
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -86,8 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\'
-         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ca3ff.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\cckx8Qln.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\'
+         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_60be3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccEVN8lK.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) version 13.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -106,17 +106,17 @@ events:
          D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 71996911801439ebea1892f3f3ba3826
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\'
-         D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\cckx8Qln.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\'
+         D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccEVN8lK.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
         COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_ca3ff.exe
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ca3ff.dir\\link.txt --verbose=1
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ca3ff.dir/objects.a
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_ca3ff.dir/objects.a @CMakeFiles\\cmTC_ca3ff.dir\\objects1.rsp
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_ca3ff.dir/objects.a -Wl,--no-whole-archive -o cmTC_ca3ff.exe -Wl,--out-implib,libcmTC_ca3ff.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_60be3.exe
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_60be3.dir\\link.txt --verbose=1
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_60be3.dir/objects.a
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_60be3.dir/objects.a @CMakeFiles\\cmTC_60be3.dir\\objects1.rsp
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_60be3.dir/objects.a -Wl,--no-whole-archive -o cmTC_60be3.exe -Wl,--out-implib,libcmTC_60be3.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
@@ -128,13 +128,13 @@ events:
         gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
         COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ff.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3ff.'
-         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccuwQvxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca3ff.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca3ff.dir/objects.a --no-whole-archive --out-implib libcmTC_ca3ff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60be3.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60be3.'
+         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccoxk2N9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_60be3.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_60be3.dir/objects.a --no-whole-archive --out-implib libcmTC_60be3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
         collect2 version 13.2.0
-        D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccuwQvxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca3ff.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca3ff.dir/objects.a --no-whole-archive --out-implib libcmTC_ca3ff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccoxk2N9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_60be3.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_60be3.dir/objects.a --no-whole-archive --out-implib libcmTC_60be3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ff.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3ff.'
-        mingw32-make[1]: Leaving directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60be3.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60be3.'
+        mingw32-make[1]: Leaving directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9'
         
       exitCode: 0
   -
@@ -169,13 +169,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j']
+        ignore line: [Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ca3ff/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ca3ff.dir\\build.make CMakeFiles/cmTC_ca3ff.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-aexx2j']
-        ignore line: [Building C object CMakeFiles/cmTC_ca3ff.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_60be3/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_60be3.dir\\build.make CMakeFiles/cmTC_60be3.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-q0hdv9']
+        ignore line: [Building C object CMakeFiles/cmTC_60be3.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -184,8 +184,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\']
-        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ca3ff.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\cckx8Qln.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\']
+        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_60be3.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccEVN8lK.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) version 13.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -204,8 +204,8 @@ events:
         ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 71996911801439ebea1892f3f3ba3826]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\']
-        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\cckx8Qln.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\']
+        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccEVN8lK.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r8) 2.42]
         ignore line: [COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/]
@@ -216,12 +216,12 @@ events:
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ca3ff.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_ca3ff.exe]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ca3ff.dir\\link.txt --verbose=1]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ca3ff.dir/objects.a]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_ca3ff.dir/objects.a @CMakeFiles\\cmTC_ca3ff.dir\\objects1.rsp]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_ca3ff.dir/objects.a -Wl --no-whole-archive -o cmTC_ca3ff.exe -Wl --out-implib libcmTC_ca3ff.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_60be3.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_60be3.exe]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_60be3.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_60be3.dir/objects.a]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_60be3.dir/objects.a @CMakeFiles\\cmTC_60be3.dir\\objects1.rsp]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_60be3.dir/objects.a -Wl --no-whole-archive -o cmTC_60be3.exe -Wl --out-implib libcmTC_60be3.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
@@ -240,13 +240,13 @@ events:
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca3ff.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca3ff.']
-        link line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccuwQvxU.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ca3ff.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ca3ff.dir/objects.a --no-whole-archive --out-implib libcmTC_ca3ff.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60be3.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60be3.']
+        link line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccoxk2N9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_60be3.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_60be3.dir/objects.a --no-whole-archive --out-implib libcmTC_60be3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
           arg [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccuwQvxU.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccoxk2N9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -270,7 +270,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ca3ff.exe] ==> ignore
+          arg [cmTC_60be3.exe] ==> ignore
           arg [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
           arg [-LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
@@ -281,10 +281,10 @@ events:
           arg [-LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_ca3ff.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_60be3.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ca3ff.dll.a] ==> ignore
+          arg [libcmTC_60be3.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -368,8 +368,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu"
-      binary: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu"
+      source: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme"
+      binary: "C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -378,13 +378,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu'
+        Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme'
         
-        Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_51ba0/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_51ba0.dir\\build.make CMakeFiles/cmTC_51ba0.dir/build
-        mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu'
-        Building CXX object CMakeFiles/cmTC_51ba0.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe   -std=gnu++17   -v -o CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1a2c0/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1a2c0.dir\\build.make CMakeFiles/cmTC_1a2c0.dir/build
+        mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme'
+        Building CXX object CMakeFiles/cmTC_1a2c0.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe   -std=gnu++17   -v -o CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -393,8 +393,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
-        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\'
-         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_51ba0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccF3P0ph.s
+        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\'
+         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1a2c0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccB7Txce.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) version 13.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -419,17 +419,17 @@ events:
          D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 4ab4ff905848ef8597925cbbc69e8f61
-        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\'
-         D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccF3P0ph.s
+        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\'
+         D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccB7Txce.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
         COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_51ba0.exe
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_51ba0.dir\\link.txt --verbose=1
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_51ba0.dir/objects.a
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_51ba0.dir/objects.a @CMakeFiles\\cmTC_51ba0.dir\\objects1.rsp
-        D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_51ba0.dir/objects.a -Wl,--no-whole-archive -o cmTC_51ba0.exe -Wl,--out-implib,libcmTC_51ba0.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1a2c0.exe
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1a2c0.dir\\link.txt --verbose=1
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1a2c0.dir/objects.a
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_1a2c0.dir/objects.a @CMakeFiles\\cmTC_1a2c0.dir\\objects1.rsp
+        D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1a2c0.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a2c0.exe -Wl,--out-implib,libcmTC_1a2c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
@@ -441,13 +441,13 @@ events:
         gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
         COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51ba0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51ba0.'
-         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccN9Vmiz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_51ba0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_51ba0.dir/objects.a --no-whole-archive --out-implib libcmTC_51ba0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a2c0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1a2c0.'
+         D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccSlwMek.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1a2c0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1a2c0.dir/objects.a --no-whole-archive --out-implib libcmTC_1a2c0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
         collect2 version 13.2.0
-        D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccN9Vmiz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_51ba0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_51ba0.dir/objects.a --no-whole-archive --out-implib libcmTC_51ba0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccSlwMek.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1a2c0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1a2c0.dir/objects.a --no-whole-archive --out-implib libcmTC_1a2c0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51ba0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51ba0.'
-        mingw32-make[1]: Leaving directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a2c0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1a2c0.'
+        mingw32-make[1]: Leaving directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme'
         
       exitCode: 0
   -
@@ -488,13 +488,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu']
+        ignore line: [Change Dir: 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_51ba0/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_51ba0.dir\\build.make CMakeFiles/cmTC_51ba0.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-etnkgu']
-        ignore line: [Building CXX object CMakeFiles/cmTC_51ba0.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe   -std=gnu++17   -v -o CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/Users/Matheus/Downloads/c/bin/cmake.exe -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1a2c0/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1a2c0.dir\\build.make CMakeFiles/cmTC_1a2c0.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Projects/Studies_in_C/Exercises/ep_mvga/barycentric/build/CMakeFiles/CMakeScratch/TryCompile-102nme']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1a2c0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe   -std=gnu++17   -v -o CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -503,8 +503,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\']
-        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_51ba0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccF3P0ph.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\']
+        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:\\Users\\Matheus\\Downloads\\c\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1a2c0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -o C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccB7Txce.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r8) version 13.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -529,8 +529,8 @@ events:
         ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4ab4ff905848ef8597925cbbc69e8f61]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\']
-        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccF3P0ph.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\']
+        ignore line: [ D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccB7Txce.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r8) 2.42]
         ignore line: [COMPILER_PATH=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/]
@@ -541,12 +541,12 @@ events:
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_51ba0.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_51ba0.exe]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_51ba0.dir\\link.txt --verbose=1]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_51ba0.dir/objects.a]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_51ba0.dir/objects.a @CMakeFiles\\cmTC_51ba0.dir\\objects1.rsp]
-        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_51ba0.dir/objects.a -Wl --no-whole-archive -o cmTC_51ba0.exe -Wl --out-implib libcmTC_51ba0.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=gnu++17' '-v' '-o' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1a2c0.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1a2c0.exe]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1a2c0.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1a2c0.dir/objects.a]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\ar.exe qc CMakeFiles\\cmTC_1a2c0.dir/objects.a @CMakeFiles\\cmTC_1a2c0.dir\\objects1.rsp]
+        ignore line: [D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_1a2c0.dir/objects.a -Wl --no-whole-archive -o cmTC_1a2c0.exe -Wl --out-implib libcmTC_1a2c0.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\Users\\Matheus\\Downloads\\c\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
@@ -565,13 +565,13 @@ events:
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51ba0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_51ba0.']
-        link line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccN9Vmiz.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_51ba0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_51ba0.dir/objects.a --no-whole-archive --out-implib libcmTC_51ba0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1a2c0.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1a2c0.']
+        link line: [ D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccSlwMek.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1a2c0.exe D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1a2c0.dir/objects.a --no-whole-archive --out-implib libcmTC_1a2c0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
           arg [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=D:/Users/Matheus/Downloads/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccN9Vmiz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Matheus\\AppData\\Local\\Temp\\ccSlwMek.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -595,7 +595,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_51ba0.exe] ==> ignore
+          arg [cmTC_1a2c0.exe] ==> ignore
           arg [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o] ==> obj [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o]
           arg [-LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0] ==> dir [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0]
@@ -606,10 +606,10 @@ events:
           arg [-LD:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..] ==> dir [D:/Users/Matheus/Downloads/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_51ba0.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_1a2c0.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_51ba0.dll.a] ==> ignore
+          arg [libcmTC_1a2c0.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore

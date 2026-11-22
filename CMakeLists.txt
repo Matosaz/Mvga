@@ -23,3 +23,6 @@ add_custom_command(TARGET Barycentric POST_BUILD
 )
 
 target_link_libraries(Barycentric glfw3dll opengl32 gdi32)
+
+
+
